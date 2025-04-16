@@ -5,6 +5,7 @@ import Form from "./components/Form1/Form1";
 import Form1 from "./components/Form1/Form1";
 import FormAction2 from "./components/FormAction2/FormAction2";
 import ControlledForm3 from "./components/ControlledForm3/ControlledForm3";
+import UncontrolForm4 from "./components/UncontrolForm4/UncontrolForm4";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <br />
       <h3>Controlled Form</h3>
       <ControlledForm3></ControlledForm3>
+      <h3>Uncontrolled Form using useRef</h3>
+      <UncontrolForm4></UncontrolForm4>
     </>
   );
 }
